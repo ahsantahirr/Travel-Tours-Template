@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    display: inline;
+}
+
+.barlinks{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px 0px 40px;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    width: 100%;
+    /* height: 700px; */
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .item1 {
+    width: 530px;
+    /* height:600px; */
+    background-color: #2e8ea6;
+    margin: 80px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .item2 {
+    width: 530px;
+    /* height: 600px; */
+    margin: 80px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center
+}
+ .content{
+    height: 500px;
+    width: 460px;
+    border: 4px solid white;
+    text-align: center;
+    color: white;
+}
+h3{
+    margin-top: 60px;
+    line-height: 0px;
+}
+h1{
+    font-size: 3.5em;
+    line-height: 30px;
+}
+p{
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 1em;
+    padding: 0px 40px 0px 40px;
+    line-height: 25px;
+}
+button{
+    background-color: #2e8ea6;
+    border: 1px solid white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+}
+#buttonlink{
+        color: wheat;
+        text-decoration: none;
+        font-size: 1.2em;
+
+}
+ button:hover{
+    background-color: white;
+}
+#buttonlink:hover{
+    color:  #2e8ea6;
+}
+#freepik{
+    color: white;
+}
+.image{
+    height: 300px;
+    width: 265px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(76, 74, 74);
+   align-items: center;
+
+}
+@media screen and (max-width: 620px){
+    .image{
+        width: 520px;
+    }
+    .item2{
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
